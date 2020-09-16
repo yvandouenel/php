@@ -1,0 +1,17 @@
+{
+    "name": "coopernet/composer",
+    "authors": [
+        {
+            "name": "yvandouenel",
+            "email": "y.douenel@coopernet.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}

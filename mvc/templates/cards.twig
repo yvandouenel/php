@@ -1,0 +1,18 @@
+{% extends "base.twig" %}
+
+{% block title %}
+	{{ title }}
+{% endblock %}
+{% block content %}
+	<h2>Liste de toutes les cartes</h2>
+	<section class="row ">
+		{% for card in cards %}
+			<article class="col-md-4 ">
+				<h3>
+					<a href="/cards/{{ card.c_id }}">{{ card.c_question }}</a>
+				</h3>
+				<p>{{ card.c_answer }}</p>
+			</article>
+		{% endfor %}
+	</section>
+{% endblock %}

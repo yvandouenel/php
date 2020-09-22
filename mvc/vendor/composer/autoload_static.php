@@ -25,10 +25,8 @@ class ComposerStaticInit4ae228f5e69eb02a76044b6740f8de09
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\Routing\\' => 26,
             'Symfony\\Component\\HttpFoundation\\' => 33,
-        ),
-        'A' => 
-        array (
-            'App\\' => 4,
+            'Src\\Model\\' => 10,
+            'Src\\' => 4,
         ),
     );
 
@@ -57,9 +55,13 @@ class ComposerStaticInit4ae228f5e69eb02a76044b6740f8de09
         array (
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
-        'App\\' => 
+        'Src\\Model\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app',
+            0 => __DIR__ . '/../..' . '/src/model',
+        ),
+        'Src\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

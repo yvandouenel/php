@@ -8,9 +8,9 @@ use Symfony\Component\Routing\Route;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Generator\UrlGenerator;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
-use App\Controller;
+use Src\Controller;
 
-require_once('../model/connexion.php');
+require_once('../src/model/connexion.php');
 
 try
 {

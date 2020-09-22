@@ -12,5 +12,6 @@ return array(
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Symfony\\Component\\Routing\\' => array($vendorDir . '/symfony/routing'),
     'Symfony\\Component\\HttpFoundation\\' => array($vendorDir . '/symfony/http-foundation'),
-    'App\\' => array($baseDir . '/app'),
+    'Src\\Model\\' => array($baseDir . '/src/model'),
+    'Src\\' => array($baseDir . '/src'),
 );
